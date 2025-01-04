@@ -68,3 +68,24 @@ header {
     font-size: 18px;
     box-shadow: 3px 3px 2px #00c9e45e;
 }
+
+/* Image Section */
+
+.image-section {
+    margin: 70px 0px;
+}
+
+.image-section-container {
+    text-align: center;
+}
+
+.image-section-container img {
+    display: inline-block;
+    width: 400px;
+    margin-right: 15px;
+    /* height: auto; */
+}
+
+.image-section-container img:last-child {
+    margin-right: 0;
+}
